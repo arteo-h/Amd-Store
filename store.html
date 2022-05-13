@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Times;
+  padding: 4px;
+  background: black;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: red;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:orangered;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color:orangered;
+  color: black;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: black;
+  padding-left: 15px;
+}
+
+.card {
+  background-color:red;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: orangered;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1257px 2212px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+ <font face="Times" size="4" color="black">
+  <h1>AMD STORE</h1></font>
+  
+  <font face="Verdana" size="4" color="black">
+  <p><marquee>Technology changes the world, but not on its own.</marquee></p></font>
+  <iframe src="amd2.jpg" style="border:3px solid red;height:460px;width:1080px;"></iframe>	
+</div>
+
+<div class="topnav">
+  <a href="https://www.amd.com/en">AMD</a>
+  <a href="https://pcpartpicker.com">pcpartpicker</a>
+  <a href="https://www.amazon.com/AMD-Ryzen-3700X-16-Thread-Processor/dp/B07SXMZLPK/ref=sr_1_1?dchild=1&keywords=amd&qid=1619703031&sr=8-1">Amazon</a>
+  <a href="https://www.newegg.com" style="float:right">New Egg</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font face="Verdana" size="4" color="black">
+      <h2>AMD</h2>
+      <h5>New Generation</h5></font>
+      
+      <marquee>
+      <img src="1.jpg" alt="1" width="440" height="290" >
+      <img src="2.png" alt="2" width="440" height="290">
+	  <img src="3.jpg" alt="3" width="440" height="290"> 
+	  <img src="4.jpg" alt="4" width="440" height="290">
+	  <img src="5.jpg" alt="5" width="440" height="290">      
+      </marquee>
+    
+	  <audio controls>
+  		<source src="song.mp3" type="audio/mp3">
+	  </audio>
+  	  <audio controls>
+  		<source src="song2.mp3" type="audio/mp3">
+	  </audio>
+
+      <p><blockquote>AMD Radeon Software Adrenalin 21.4.1 provides customizable installation options, enhanced recording and streaming functionality, PlayReady AV1 support and new stability features
+        AMD Link now enables high-performance remote gaming on Windows PCs in addition to phones, tablets and TVs; new AMD Link Game feature allows another Radeon user to remotely connect to play local multiplayer-supported games</blockquote></p>
+    </div>
+    <div class="card">
+      <h3>Graphic Card</h3>
+      <h4>6000 series</h4>
+      
+      <iframe src="amd3.jpg" width="650px" height="300px">
+      </iframe>
+      
+      <p><blockquote>The AMD Radeon RX 6000 Series graphics cards represent the forefront of extreme engineering and design to deliver ultra-high frame rates. Powerful new compute units, the all-new AMD Infinity Cache, and large amounts of GDDR6 memory enable the ultimate gaming experience.
+		 </blockquote></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+
+       <font face="Verdana" size="4" color="black">
+       <h3>Presentation</h3></font>
+       
+       <iframe width="300" height="200" src="https://youtu.be/oHpgu-cTjyM" 
+       frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+       picture-in-picture" allowfullscreen></iframe>
+       
+       <embed src="amd5.png" width="200" height="100">
+      
+    </div>
+    <div class="card">
+      <h3>Login</h3>
+      
+      
+		<img src="logo.jfif" width="200" height="200">
+		<h1 align="justified" style="font-size: 30px"> Please Login </h1>
+		<form>
+			<p> Username: </p>
+			<input type="text" name="" placeholder="Name">
+			<p> Password: </p>
+			<input type="Password" name="" placeholder="Password">
+			<br>
+		</form>
+		<div class="submit"><p align="center"><a href="amdStore.html"> Submit </a></p></div>
+
+  
+    </div>
+    <div class="card">
+      <h3> Fast access</h3>
+      <ul>
+		<li><a href="amdStore.html"> Home </a></li>
+		<li><a href="https://www.amd.com/en"> AMD </a></li>
+		<li><a href="https://www.newegg.com"> Newegg </a></li>
+		<li><a href="login.html"> Login Page </a></li>		
+	 </ul>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="footer">
+  <h2> When processing power meets brain power, the future comes alive. </h2>  
+</div>
+
+</body>
+</html>
